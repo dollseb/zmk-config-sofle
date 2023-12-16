@@ -10,10 +10,15 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
+#define OSHOST 0
+
+#include "../zmk-nodefree-config/helper.h"
+#include "../zmk-nodefree-config/international_chars/german.dtsi"
 
 / {
 
