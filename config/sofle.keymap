@@ -94,7 +94,7 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)
 //                 |       |       |       |       |      |  |      |      |       |         |         |
 
             bindings = <
-&trans      &kp N1        &kp N2       &kp N3            &kp N4                &kp N5                                      &trans     &trans         &kp PG_UP    BACKSPACE     &trans     &trans
+&trans      &kp N1        &kp N2       &kp N3            &kp N4                &kp N5                                      &trans     &trans         &kp PG_UP    &kp BACKSPACE &trans     &trans
 &trans      &kp N6        &kp N7       &kp N8            &kp N9                &kp N0                                      &trans     &trans         &kp UP       &kp DELETE    &trans     &trans
 &trans      &kp MINUS     &kp KP_PLUS  &kp KP_MULTIPLY   &kp FSLH              &kp EQUAL                                   &kp HOME   &kp LEFT       &kp DOWN     &kp RIGHT     &kp END    &trans
 &trans      &kp CARET     &kp COMMA    &kp DOT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &trans    &trans  &trans     &trans         &kp PG_DN    &trans        &trans     &trans
